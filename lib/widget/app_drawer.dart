@@ -25,7 +25,7 @@ class AppDrawer extends StatelessWidget {
           Divider(),
           ListTile(
             leading: Icon(Icons.payment_outlined),
-            title: Text("Loja"),
+            title: Text("Pedidos"),
             onTap: () => Navigator.of(context)
                 .pushNamedAndRemoveUntil(AppRoutes.ORDERS, (route) => false),
           ),
